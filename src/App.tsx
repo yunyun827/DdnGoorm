@@ -5,11 +5,11 @@ import Layout from "./components/layout/layout";
 import Navigation from "./components/layout/navigation";
 import Title from "./components/layout/Title";
 import StatusBar from "./components/layout/statusbar";
-import Home from "./app/page";
 import Noti from "./pages/Notifications";
 import Teams from "./pages/Teams";
 import MyPage from "./pages/MyPage";
 import NotFound from "./pages/NotFound";
+import Home from "./pages/Home";
 
 function App() {
   return (
@@ -17,7 +17,6 @@ function App() {
       <Navigation />
       <StatusBar />
       <Routes>
-        <Title />
         <Route path="/" element={<Home />}></Route>
         <Route path="/notifications/*" element={<Noti />}></Route>
         <Route path="/teams/*" element={<Teams />}></Route>
