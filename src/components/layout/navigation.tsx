@@ -1,3 +1,5 @@
+import "./navigation.css";
+
 const Logo = () => {
   return <></>;
 };

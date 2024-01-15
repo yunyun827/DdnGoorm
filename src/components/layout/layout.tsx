@@ -3,8 +3,7 @@ import "./layout.css";
 import StatusBar from "./statusbar";
 import Navigation from "./navigation";
 
-
-import Header from "./header";
+import Header from "./Title";
 import Content from "./content";
 
 const Layout = () => {
